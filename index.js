@@ -5,7 +5,7 @@ function takeANumber(people, name) {
 
 
 function nowServing(katzDeliLine) {
- /* if (katzDeliLine.length === 0) {
+  if (katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!"
   }
   
@@ -14,11 +14,11 @@ else {
    katzDeliLine.unshift()
    return 'Currently serving ' + frontOfTheLine + '.'
   }
-*/
+/*
   katzDeliLine[0]
   katzDeliLine.unshift()
   return "There is nobody waiting to be served!"
-  
+  */
 }
 
 function currentLine(people){
