@@ -12,7 +12,7 @@ function nowServing(katzDeliLine) {
   else {
     var frontOfTheLine = katzDeliLine[0]
     katzDeliLine.unshift()
-    return frontOfTheLine
+    return 'Currently serving ' + frontOfTheLine + '.'
   }
  // katzDeliLine[0]
  // katzDeliLine.unshift()
